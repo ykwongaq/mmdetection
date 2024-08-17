@@ -721,7 +721,7 @@ train_pipeline = [
     dict(type="PackDetInputs"),
 ]
 
-work_dir = "/mnt/hdd/davidwong/models/ddq/intra"
+work_dir = "/mnt/hdd/davidwong/models/ddq/intra_val_seen"
 
 dataset_type = "CocoDataset"
 data_root = "/mnt/hdd/davidwong/data/marinedet/"
